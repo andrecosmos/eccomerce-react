@@ -62,8 +62,8 @@ Este projeto é privado e não possui licença pública.
 
 ## 📸 Screenshots
 
-*(Adicione screenshots da aplicação aqui para melhor visualização)*
+Tela Home : Traz os cards de produtos através de silulação de API
 
----
+<img width="1366" height="768" alt="tela react home" src="https://github.com/user-attachments/assets/35de584d-8403-4cbb-9b13-ef33988ca954" />
 
 Desenvolvido com ❤️ usando React e Tailwind CSS.
