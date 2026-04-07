@@ -1,0 +1,44 @@
+.productPage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* IMAGEM */
+.imageBox img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* INFO */
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: green;
+  margin: 20px 0;
+}
+
+/* BOTÃO */
+
+
+@media (max-width: 768px) {
+  .productPage {
+    grid-template-columns: 1fr;
+  }
+
+  .imageBox img {
+    height: 250px;
+  }
+}
