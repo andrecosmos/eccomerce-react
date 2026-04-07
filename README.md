@@ -66,4 +66,27 @@ Tela Home : Traz os cards de produtos através de silulação de API
 
 <img width="1366" height="768" alt="tela react home" src="https://github.com/user-attachments/assets/35de584d-8403-4cbb-9b13-ef33988ca954" />
 
+Tela de detalhamento de produto com botões para adicionar ao carrinho , continuar comprando e ir ao carrinho de compras.
+
+<img width="1366" height="768" alt="tela react detalhe produto" src="https://github.com/user-attachments/assets/7c7594af-67d5-4bf7-9777-4475595811df" />
+
+Tela do carrinho de compras :
+
+<img width="1366" height="768" alt="react carrinho" src="https://github.com/user-attachments/assets/30b6c081-343e-4376-a2f6-f1bdab571a35" />
+
+Tela de Dashboard
+<img width="1366" height="768" alt="react dashboard" src="https://github.com/user-attachments/assets/6e248b13-5c63-485d-b899-67dbb5e504fc" />
+
+Tela de Lista de produtos . Carregamento feito via LocalStorage simulando banco de dados.
+
+<img width="1366" height="768" alt="react lista de produto" src="https://github.com/user-attachments/assets/b5030ed6-1c33-4e70-9fe8-1b14dc3f161d" />
+
+Tela de Cadastro de produtos. Salvamento via LocalStorage simulando Banco de dados:
+
+<img width="1366" height="768" alt="react cadastro produto" src="https://github.com/user-attachments/assets/e337fd3f-83f7-4065-87ec-98e4c4bd0ee8" />
+
+Tela de Contato trazendo links externos:
+
+<img width="1366" height="768" alt="react contato" src="https://github.com/user-attachments/assets/09d7d47f-5e4c-4c05-b478-08067aa98998" />
+
 Desenvolvido com ❤️ usando React e Tailwind CSS.
