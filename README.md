@@ -118,41 +118,12 @@ Este projeto foi desenvolvido como parte de portfólio com foco em demonstrar:
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT.
+Este projeto é privado e não possui licença pública.
+
+## 📸 Screenshots
+
+*(Adicione screenshots da aplicação aqui para melhor visualização)*
 
 ---
 
-## 📸 Como adicionar os screenshots
-
-Crie a seguinte estrutura no projeto:
-
-```
-/public/screenshots/
-  home.png
-  search.gif
-  cart.gif
-```
-
-Sugestões:
-
-* `home.png`: tela inicial com produtos
-* `search.gif`: digitando na busca
-* `cart.gif`: adicionando item ao carrinho
-
-Ferramentas recomendadas para GIF:
-
-* ScreenToGif (Windows)
-* OBS Studio
-
-Dica: mantenha os GIFs curtos (5–10 segundos) para não pesar o README.
-
----
-
-## 🏷️ (Opcional) Badges
-
-Adicione no topo do README para dar mais impacto:
-
-```
-![React](https://img.shields.io/badge/React-18-blue)
-![Status](https://img.shields.io/badge/status-active-success)
-```
+Desenvolvido com ❤️ usando React e Tailwind CSS.
