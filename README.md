@@ -1,69 +1,158 @@
-# Site E-commerce
+# 🛒 E-commerce React
 
+Aplicação web de e-commerce desenvolvida com foco em experiência do usuário, arquitetura de componentes e simulação de fluxo real de compras.
 
-Este é um site de e-commerce desenvolvido em React, oferecendo uma experiência de compra online com catálogo de produtos, carrinho de compras e painel de controle.
-
-## 🚀 Tecnologias Utilizadas
-
-### Frontend
-- **React** (v19.2.4): Biblioteca JavaScript para construção de interfaces de usuário.
-- **React Router DOM** (v7.13.1): Para navegação e roteamento de páginas.
-- **React Icons** (v5.6.0): Conjunto de ícones para React.
-- **Tailwind CSS** (v4.2.2): Framework CSS utilitário para estilização rápida e responsiva.
-- **CSS Modules**: Para estilização modular e isolada de componentes.
-
-### Backend Simulado
-- **JSON Server** (v3.0.0): Servidor REST simulado para dados de produtos, pedidos e carrinho.
-
-### Desenvolvimento e Testes
-- **React Scripts** (v5.0.1): Scripts de build e desenvolvimento para aplicações React.
-- **Jest** e **React Testing Library**: Para testes unitários e de integração.
-- **UUID** (v13.0.0): Para geração de identificadores únicos.
-- **Web Vitals** (v2.1.4): Para monitoramento de performance.
-
-### Ferramentas de Build
-- **PostCSS** (v8.5.8) e **Autoprefixer** (v10.4.27): Para processamento CSS e compatibilidade de navegadores.
-
-
-A aplicação estará disponível em `http://localhost:3000`.
-
-## 🛠️ Scripts Disponíveis
-
-- `npm start`: Inicia o servidor de desenvolvimento.
-- `npm run build`: Cria uma build de produção.
-- `npm test`: Executa os testes.
-- `npm run eject`: Ejecta a configuração (irreversível).
-
-## 📋 Funcionalidades
-
-- **Catálogo de Produtos**: Visualização de produtos com cards interativos.
-- **Carrinho de Compras**: Adição, remoção e gerenciamento de itens.
-- **Painel de Controle (Dashboard)**: Visão geral de pedidos e produtos.
-- **Formulário de Produto**: Criação e edição de produtos.
-- **Contato**: Página de contato.
-- **Layout Responsivo**: Design adaptável para diferentes dispositivos.
-
-## 🏗️ Estrutura do Projeto
-
-```
-src/
-├── components/
-│   ├── layout/          # Componentes de layout (Navbar, Footer, Container)
-│   ├── pages/           # Páginas principais (Home, Cart, Product, etc.)
-│   └── ui/              # Componentes de UI reutilizáveis (Card, Skeleton)
-├── services/            # Serviços para API e armazenamento local
-└── assets/              # Recursos estáticos
-```
-
-
-## 📄 Licença
-
-Este projeto é privado e não possui licença pública.
-
-## 📸 Screenshots
-
-*(Adicione screenshots da aplicação aqui para melhor visualização)*
+🔗 **Live Demo:**
+[https://eccomerce-react-zeta.vercel.app/](https://eccomerce-react-zeta.vercel.app/)
 
 ---
 
-Desenvolvido com ❤️ usando React e Tailwind CSS.
+## 🚀 Demonstração
+
+### 🏠 Navegação e listagem de produtos
+
+![Home](./public/screenshots/home.png)
+
+### 🔍 Busca de produtos
+
+![Busca](./public/screenshots/search.gif)
+
+### 🛒 Carrinho de compras em funcionamento
+
+![Carrinho](./public/screenshots/cart.gif)
+
+---
+
+## ✨ Principais funcionalidades
+
+* Listagem dinâmica de produtos
+* Busca em tempo real
+* Carrinho de compras com atualização automática
+* Persistência de dados com LocalStorage
+* Interface responsiva
+* Componentização reutilizável
+
+---
+
+## 🧠 Decisões técnicas
+
+Este projeto foi estruturado priorizando organização, escalabilidade e boas práticas:
+
+* Separação por responsabilidades (`components`, `pages`, `services`)
+* Simulação de backend utilizando LocalStorage
+* Controle de estado com React Hooks (`useState`, `useEffect`)
+* Componentes desacoplados e reutilizáveis
+* Estrutura preparada para futura integração com API
+
+---
+
+## 🏗️ Arquitetura do projeto
+
+```
+src/
+├── components/     # Componentes reutilizáveis (UI)
+├── pages/          # Páginas da aplicação
+├── services/       # Regras de negócio e persistência
+├── assets/         # Imagens e arquivos estáticos
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## ⚙️ Como rodar o projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/andrecosmos/eccomerce-react.git
+
+# Acesse a pasta
+cd eccomerce-react
+
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
+```
+
+---
+
+## 🌐 Deploy
+
+Deploy realizado utilizando a plataforma Vercel:
+
+[https://eccomerce-react-zeta.vercel.app/](https://eccomerce-react-zeta.vercel.app/)
+
+---
+
+## 📈 Possíveis evoluções
+
+* Integração com API REST (Spring Boot, Node.js, etc.)
+* Sistema de autenticação (JWT)
+* Integração com gateway de pagamento
+* Filtros avançados e ordenação
+* Dashboard administrativo
+* Context API ou Redux para estado global
+
+---
+
+## 🎯 Objetivo
+
+Este projeto foi desenvolvido como parte de portfólio com foco em demonstrar:
+
+* Domínio de React
+* Organização de código em aplicações reais
+* Simulação de regras de negócio
+* Capacidade de estruturar projetos escaláveis
+
+---
+
+## 👨‍💻 Autor
+
+**André Cosmos**
+
+* GitHub: [https://github.com/andrecosmos](https://github.com/andrecosmos)
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+## 📸 Como adicionar os screenshots
+
+Crie a seguinte estrutura no projeto:
+
+```
+/public/screenshots/
+  home.png
+  search.gif
+  cart.gif
+```
+
+Sugestões:
+
+* `home.png`: tela inicial com produtos
+* `search.gif`: digitando na busca
+* `cart.gif`: adicionando item ao carrinho
+
+Ferramentas recomendadas para GIF:
+
+* ScreenToGif (Windows)
+* OBS Studio
+
+Dica: mantenha os GIFs curtos (5–10 segundos) para não pesar o README.
+
+---
+
+## 🏷️ (Opcional) Badges
+
+Adicione no topo do README para dar mais impacto:
+
+```
+![React](https://img.shields.io/badge/React-18-blue)
+![Status](https://img.shields.io/badge/status-active-success)
+```
