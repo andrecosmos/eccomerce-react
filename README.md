@@ -15,7 +15,7 @@ Aplicação web de e-commerce desenvolvida com foco em experiência do usuário,
 
 ### 🔍 Busca de produtos
 
-![Busca](./public/screenshots/search.gif)
+![Busca](public/SEARCH.gif)
 
 ### 🛒 Carrinho de compras em funcionamento
 
