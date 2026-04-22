@@ -19,7 +19,7 @@ Aplicação web de e-commerce desenvolvida com foco em experiência do usuário,
 
 ### 🛒 Carrinho de compras em funcionamento
 
-![Carrinho](./public/screenshots/cart.gif)
+![Carrinho](public/carrinho.png)
 
 ---
 
