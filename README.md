@@ -11,11 +11,11 @@ Aplicação web de e-commerce desenvolvida com foco em experiência do usuário,
 
 ### 🏠 Navegação e listagem de produtos
 
-![Home](./public/screenshots/home.png)
+![Home](public/home.png)
 
 ### 🔍 Busca de produtos
 
-![Busca](./public/screenshots/search.gif)
+![Busca](public/SEARCH.gif)
 
 ### 🛒 Carrinho de compras em funcionamento
 
